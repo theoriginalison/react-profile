@@ -3,13 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import AboutMe from './pages/AboutMe';
 import Contact from "./pages/Contact";
+import Nav from "./components/Nav"
 
 function App() {
   return (
     <div>
       <Router>
         <div>
-          {/* <Nav /> */}
+          <Nav />
           <Switch>
             <Route exact path="/" component={AboutMe} />
             <Route exact path="/contact" component={Contact} />
