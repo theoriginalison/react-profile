@@ -11,7 +11,7 @@ const AboutMe = () => {
                         <h1 className="display-4">About Me</h1>
                         <hr className="my-4" />
                         <p className="aboutme">
-                            <img className="profilepic img-fluid" src="images/profilepic.jpeg"
+                            <img className="profilepic img-fluid" src="../images/profilepic.jpeg"
                                 alt="Alison looking to the right of the screen; she is wearing a black sleeveless blouse with white medallion designs. Her hair is pulled back, and she is smiling. There is a sunset behind her."
                                 width="250px" />
         Alison Lubar teaches high school English by day and yoga by night.
@@ -59,7 +59,7 @@ const AboutMe = () => {
       </p>
                     </section>
                     <section>
-                        <h2 className="socialMedia">Resume</h2>
+                        <h2 className="socialMedia">RESUME</h2>
                         <p className="aboutme smLinks">
                             Phone: (610) 730-3014 <br />
         Location: New Jersey & Philadelphia<br />

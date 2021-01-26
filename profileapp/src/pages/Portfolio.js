@@ -12,7 +12,7 @@ const Portfolio = () => {
                         <div className="card-header portfolio-card">
                             LOOK & LAUGH
               </div>
-                        <img src="./images/project-one-closeup.png" className="card-img-top" id="lookLaugh"
+                        <img src="../images/project-one-closeup.png" className="card-img-top" id="lookLaugh"
                             alt="screenshot of Look & Laugh page: a teal background with search bar for an image or joke, a placeholder image of a winky face sticking its tongue out, and a place to save images & jokes to favorites"></img>
                         <div className="card-body">
                             <h5 className="card-title">Breaks for Coders</h5>

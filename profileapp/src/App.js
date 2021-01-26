@@ -14,13 +14,9 @@ function App() {
         <div>
           <Nav />
           <Switch>
-            <Route exact path="/" component={AboutMe} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/portfolio" component={Portfolio} />
-            {/* <Route exact path="/home" component={Home} />
-            <Route exact path="/favorites" component={FavoritesList} />
-            <Route exact path="/posts/:id" component={Detail} />
-            <Route component={NoMatch} /> */}
+            <Route exact path="/" component={AboutMe} />
           </Switch>
           <Footer />
         </div>
