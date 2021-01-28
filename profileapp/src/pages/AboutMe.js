@@ -1,4 +1,5 @@
 import React from "react";
+import profilepic from "../images/profilepic.jpeg"
 //import image from images folder, once it's in there
 
 
@@ -11,7 +12,7 @@ const AboutMe = () => {
                         <h1 className="display-4">About Me</h1>
                         <hr className="my-4" />
                         <p className="aboutme">
-                            <img className="profilepic img-fluid" src="../images/profilepic.jpeg"
+                            <img className="profilepic img-fluid" src={profilepic}
                                 alt="Alison looking to the right of the screen; she is wearing a black sleeveless blouse with white medallion designs. Her hair is pulled back, and she is smiling. There is a sunset behind her."
                                 width="250px" />
         Alison Lubar teaches high school English by day and yoga by night.
