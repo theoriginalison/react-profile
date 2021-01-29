@@ -1,5 +1,6 @@
 import React from "react";
 import profilepic from "../images/profilepic.jpeg"
+import resume from "../Alison_Lubar_Resume.pdf"
 //import image from images folder, once it's in there
 
 
@@ -23,8 +24,8 @@ const AboutMe = () => {
         Journal, Cathexis Northwest Press, High Shelf, Gravitas, great
         weather for MEDIA, Toho, Rowan University’s Glassworks, Giovanni’s
         Room anthology
-        <em>queerbook</em>, and Fearsome Critters' <em>Quaranzine</em>; she has work forthcoming with Apiary
-        Magazine. <br /><br />
+        <em>queerbook</em>, Fearsome Critters' <em>Quaranzine</em>, Apiary
+        Magazine, and antonym lit. More information about her poetry can be found at <a href="alisonlubar.com" target="_blank">alisonlubar.com</a><br /><br />
         Alison graduated from the University of Delaware in 2007, with a
         double major in Philosophy and Italian literature. In 2009, while
         teaching at University City High School in West Philadelphia, she
@@ -34,7 +35,7 @@ const AboutMe = () => {
         Power Yoga, where she teaches power vinyasa classes. Alison also
         currently teaches at a public high school in New Jersey, where she
         has created courses in philosophy, mindfulness, & yoga, and
-        developed an restorative practices program.
+        developed a restorative practices program.
         <br /><br />
         Though she is Californian by birth, Alison currently lives in New
         Jersey with her partner and their respective dogs. She hopes to
@@ -50,9 +51,9 @@ const AboutMe = () => {
 
                             LinkedIn:
         <a href="https://www.linkedin.com/in/alison-lubar-0210b31b3/"
-                                target="_blank">https://www.linkedin.com/in/alison-lubar-0210b31b3/</a><br />
+                                target="_blank"> https://www.linkedin.com/in/alison-lubar-0210b31b3/</a><br />
         GitHub:
-        <a href="https://github.com/theoriginalison" target="_blank">https://github.com/theoriginalison</a>
+        <a href="https://github.com/theoriginalison" target="_blank"> https://github.com/theoriginalison</a>
                             <br />
 
         Email: <a href="mailto:aslubar@gmail.com">aslubar@gmail.com</a>
@@ -64,7 +65,7 @@ const AboutMe = () => {
                         <p className="aboutme smLinks">
                             Phone: (610) 730-3014 <br />
         Location: New Jersey & Philadelphia<br />
-                            <a href="./Alison Lubar Resume.pdf" download>Click here to download Alison's resume.</a>
+                            <a href={resume} download>Click here to download Alison's resume.</a>
                         </p>
                     </section>
                 </div>
