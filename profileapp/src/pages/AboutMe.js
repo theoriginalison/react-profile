@@ -1,6 +1,7 @@
 import React from "react";
 import profilepic from "../images/profilepic.jpeg"
 import resume from "../Alison_Lubar_Resume.pdf"
+import { Link } from "react-router-dom";
 //import image from images folder, once it's in there
 
 
@@ -56,8 +57,7 @@ const AboutMe = () => {
         <a href="https://github.com/theoriginalison" target="_blank"> https://github.com/theoriginalison</a>
                             <br />
 
-        Email: <a href="mailto:aslubar@gmail.com">aslubar@gmail.com</a>
-        or <a href="./contact.html">use the form on the contact page</a>.
+        Email: <a href="mailto:aslubar@gmail.com">aslubar@gmail.com</a> or <Link to="/contact">use the form on the contact page</Link>.
       </p>
                     </section>
                     <section>
