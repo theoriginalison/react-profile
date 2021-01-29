@@ -9,7 +9,7 @@ const AboutMe = () => {
             <div className="row">
                 <div className="jumbotron col-sm-10">
                     <section>
-                        <h1 className="display-4">About Me</h1>
+                        <h1 className="display-4">ABOUT ME</h1>
                         <hr className="my-4" />
                         <p className="aboutme">
                             <img className="profilepic img-fluid" src={profilepic}

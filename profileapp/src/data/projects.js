@@ -1,6 +1,15 @@
 //this will store the information, but Portfolio.js will import it and then pass it down to Card index.js
 // this will be an array of all objects
 
+import burgerpic from "../images/burgers-app.png"
+import oooImage from "../images/ooo-create.png"
+import lookLaughPic from "../images/project-one-closeup.png"
+import weatherPic from "../images/weather-dashboard.png"
+import plannerPic from "../images/workday-planner.png"
+// import name from "../images/"
+// import name from "../images/"
+// import name from "../images/"
+
 const projectData = [
     {
         projectTitle: "Out-Of-Office \\\(OoO)/",
@@ -13,7 +22,7 @@ const projectData = [
     },
     {
         projectTitle: "EAT-DA-BURGER",
-        projectImage: "image",
+        // projectImage: { burgerpic },
         projectImageAlt: "screenshot of the giphy cat chasing a burger, with two lists: burgers available, and burgers devoured",
         projectTagline: "A Responsive Menu",
         projectDescription: "View, add, or devour available burgers",

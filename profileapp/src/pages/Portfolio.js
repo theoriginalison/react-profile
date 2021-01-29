@@ -12,7 +12,7 @@ const Portfolio = () => {
         <main className="container">
             <section className="row">
                 <div className="jumbotron col-sm-10">
-                    <h1 className="display-4">Portfolio</h1>
+                    <h1 className="display-4">PORTFOLIO</h1>
                     <hr className="my-4" />
                     {projects.map((project, index) => {
                         return <Card {...project} key={index} />
