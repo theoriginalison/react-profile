@@ -4,7 +4,7 @@ import React from "react";
 function Card(props) {
     return (
 
-        <div className="card h-100 text-center">
+        <div className="card mb-4 text-center">
             <div className="card-header portfolio-card">
                 {props.projectTitle}
             </div>

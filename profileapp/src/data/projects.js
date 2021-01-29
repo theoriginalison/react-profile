@@ -13,7 +13,7 @@ import plannerPic from "../images/workday-planner.png"
 const projectData = [
     {
         projectTitle: "Out-Of-Office \\\(OoO)/",
-        projectImage: "image",
+        projectImage: oooImage,
         projectImageAlt: "screenshot of the create an event page",
         projectTagline: "Create a Workplace Community",
         projectDescription: "Log in, see today's after-work events, join, or create your own",
@@ -22,7 +22,7 @@ const projectData = [
     },
     {
         projectTitle: "EAT-DA-BURGER",
-        // projectImage: { burgerpic },
+        projectImage: burgerpic,
         projectImageAlt: "screenshot of the giphy cat chasing a burger, with two lists: burgers available, and burgers devoured",
         projectTagline: "A Responsive Menu",
         projectDescription: "View, add, or devour available burgers",
@@ -31,7 +31,7 @@ const projectData = [
     },
     {
         projectTitle: "WORKDAY PLANNER",
-        projectImage: "",
+        projectImage: plannerPic,
         projectImageAlt: "screenshot of the workday planner with times listed on the left, places to enter tasks in the middle, and a blue save button with a disk icon",
         projectTagline: "Schedule your day",
         projectDescription: "Save your to-dos in a timely and hourly-responsive fashion",
@@ -40,7 +40,7 @@ const projectData = [
     },
     {
         projectTitle: "WEATHER DASHBOARD",
-        projectImage: "",
+        projectImage: weatherPic,
         projectImageAlt: "screenshot of the weather dashboard with searched cities as buttons on the left, the weather for the day at the top of the main section, with a five-day forecast underneath",
         projectTagline: "Forecast for Travelers",
         projectDescription: "Provides current conditions, five-day forecast, and saved cities",
@@ -49,7 +49,7 @@ const projectData = [
     },
     {
         projectTitle: "LOOK & LAUGH",
-        projectImage: "",
+        projectImage: lookLaughPic,
         projectImageAlt: "screenshot of Look & Laugh page: a teal background with search bar for an image or joke, a placeholder image of a winky face sticking its tongue out, and a place to save images & jokes to favorites",
         projectTagline: "Breaks for Coders",
         projectDescription: "Returns a giphy image & joke for a user's searched term with an option to save favorites",

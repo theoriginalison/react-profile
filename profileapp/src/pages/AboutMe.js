@@ -25,7 +25,7 @@ const AboutMe = () => {
         weather for MEDIA, Toho, Rowan University’s Glassworks, Giovanni’s
         Room anthology
         <em>queerbook</em>, Fearsome Critters' <em>Quaranzine</em>, Apiary
-        Magazine, and antonym lit. More information about her poetry can be found at <a href="alisonlubar.com" target="_blank">alisonlubar.com</a><br /><br />
+        Magazine, and antonym lit. More information about her poetry can be found at <a href="https://alisonlubar.com" target="_blank">alisonlubar.com</a><br /><br />
         Alison graduated from the University of Delaware in 2007, with a
         double major in Philosophy and Italian literature. In 2009, while
         teaching at University City High School in West Philadelphia, she
