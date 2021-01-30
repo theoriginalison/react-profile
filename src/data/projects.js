@@ -56,33 +56,33 @@ const projectData = [
         deployedSite: "https://theoriginalison.github.io/look-laugh/",
         githubRepo: "https://github.com/theoriginalison/look-laugh",
     },
-    {
-        projectTitle: "",
-        projectImage: "",
-        projectImageAlt: "",
-        projectTagline: "",
-        projectDescription: "",
-        deployedSite: "",
-        githubRepo: "",
-    },
-    {
-        projectTitle: "",
-        projectImage: "",
-        projectImageAlt: "",
-        projectTagline: "",
-        projectDescription: "",
-        deployedSite: "",
-        githubRepo: "",
-    },
-    {
-        projectTitle: "",
-        projectImage: "",
-        projectImageAlt: "",
-        projectTagline: "",
-        projectDescription: "",
-        deployedSite: "",
-        githubRepo: "",
-    }
+    // {
+    //     projectTitle: "",
+    //     projectImage: "",
+    //     projectImageAlt: "",
+    //     projectTagline: "",
+    //     projectDescription: "",
+    //     deployedSite: "",
+    //     githubRepo: "",
+    // },
+    // {
+    //     projectTitle: "",
+    //     projectImage: "",
+    //     projectImageAlt: "",
+    //     projectTagline: "",
+    //     projectDescription: "",
+    //     deployedSite: "",
+    //     githubRepo: "",
+    // },
+    // {
+    //     projectTitle: "",
+    //     projectImage: "",
+    //     projectImageAlt: "",
+    //     projectTagline: "",
+    //     projectDescription: "",
+    //     deployedSite: "",
+    //     githubRepo: "",
+    // }
 ]
 
 export default projectData;
