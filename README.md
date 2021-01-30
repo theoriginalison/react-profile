@@ -1,4 +1,4 @@
-# Budget Tracker
+# Full-Stack Developer Profile Created with React
 ![Badge for MIT](https://img.shields.io/badge/license-MIT-green)
 
 ## Description
