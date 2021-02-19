@@ -6,11 +6,20 @@ import oooImage from "../images/ooo-create.png"
 import lookLaughPic from "../images/project-one-closeup.png"
 import weatherPic from "../images/weather-dashboard.png"
 import plannerPic from "../images/workday-planner.png"
-// import name from "../images/"
+import gbktPic from "../images/gbkt.png"
 // import name from "../images/"
 // import name from "../images/"
 
 const projectData = [
+    {
+        projectTitle: "GiveBack KeepTrack",
+        projectImage: gbktPic,
+        projectImageAlt: "screenshot of the GiveBack KeepTrack welcome page",
+        projectTagline: "Keep Track of Give Backs",
+        projectDescription: "Create entries for charitable donations, including tax deductible, employer matched, and documentation status",
+        deployedSite: "https://giveback-keeptrack.herokuapp.com/",
+        githubRepo: "https://github.com/suzygiv/GiveBack-KeepTrack",
+    },
     {
         projectTitle: "Out-Of-Office \\\(OoO)/",
         projectImage: oooImage,
@@ -56,15 +65,6 @@ const projectData = [
         deployedSite: "https://theoriginalison.github.io/look-laugh/",
         githubRepo: "https://github.com/theoriginalison/look-laugh",
     },
-    // {
-    //     projectTitle: "",
-    //     projectImage: "",
-    //     projectImageAlt: "",
-    //     projectTagline: "",
-    //     projectDescription: "",
-    //     deployedSite: "",
-    //     githubRepo: "",
-    // },
     // {
     //     projectTitle: "",
     //     projectImage: "",

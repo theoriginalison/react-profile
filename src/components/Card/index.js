@@ -13,9 +13,9 @@ function Card(props) {
             <div className="card-body">
                 <h5 className="card-title">{props.projectTagline}</h5>
                 <p className="card-text">{props.projectDescription}<br />
-                    <br /><a href="https://theoriginalison.github.io/look-laugh/" target="_blank">Deployed Site:<br />
+                    <br /><a href={props.deployedSite} target="_blank">Deployed Site:<br />
                         {props.deployedSite}</a><br />
-                    <a href="https://github.com/theoriginalison/look-laugh" target="_blank">GitHub Repo:<br />
+                    <a href={props.githubRepo} target="_blank">GitHub Repo:<br />
                         {props.githubRepo}</a><br />
                 </p>
             </div>
