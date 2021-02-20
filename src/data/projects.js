@@ -7,7 +7,7 @@ import lookLaughPic from "../images/project-one-closeup.png"
 import weatherPic from "../images/weather-dashboard.png"
 import plannerPic from "../images/workday-planner.png"
 import gbktPic from "../images/gbkt.png"
-// import name from "../images/"
+import fitPic from "../images/fitTrack.png"
 // import name from "../images/"
 
 const projectData = [
@@ -19,6 +19,15 @@ const projectData = [
         projectDescription: "Create entries for charitable donations, including tax deductible, employer matched, and documentation status",
         deployedSite: "https://giveback-keeptrack.herokuapp.com/",
         githubRepo: "https://github.com/suzygiv/GiveBack-KeepTrack",
+    },
+    {
+        projectTitle: "Fitness Tracker",
+        projectImage: fitPic,
+        projectImageAlt: "screenshot of fitness data over time, one pie graph for type and one bar graph for duration",
+        projectTagline: "Workout Progress and Motivation",
+        projectDescription: "Track your daily workout, including multiple exercises in a workout on a given day, and more specific details such as: name, type, weight, sets, reps, duration, and distance (if cardio).",
+        deployedSite: "https://fitness-tracker-alison.herokuapp.com/stats",
+        githubRepo: "https://github.com/theoriginalison/fitness-tracker",
     },
     {
         projectTitle: "Out-Of-Office \\\(OoO)/",
@@ -65,15 +74,6 @@ const projectData = [
         deployedSite: "https://theoriginalison.github.io/look-laugh/",
         githubRepo: "https://github.com/theoriginalison/look-laugh",
     },
-    // {
-    //     projectTitle: "",
-    //     projectImage: "",
-    //     projectImageAlt: "",
-    //     projectTagline: "",
-    //     projectDescription: "",
-    //     deployedSite: "",
-    //     githubRepo: "",
-    // },
     // {
     //     projectTitle: "",
     //     projectImage: "",
